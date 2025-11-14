@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="D:\DoAnTKWeb\CSS\Donhang.css">
+    <title>Lịch sử mua hàng</title>
+</head>
+<body>
+     <header class="top-bar">
+        <div class="logo">
+            <span>Sweetie Corner</span>
+            <img src="IMG/LOGO.png" alt="logo">
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="top-links">
+            <a href="D:\DoAnTKWeb\GIOHANG.html"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <!--Thanh bên trái-->
+        <nav class="sidebar">
+            <h3><a href="D:\DoAnTKWeb\HOME.html"><i class="fas fa-home"></i>Trang chủ</a></h3>
+            <h3><a href="D:\DoAnTKWeb\TAIKHOAN.html"><i class="fas fa-user"></i> Tài khoản</a></h3>
+            <ul>
+                <li>Hồ sơ</li>
+                <li>Ngân hàng</li>
+                <li>Địa chỉ</li>
+                <li>Đổi mật khẩu</li>
+                <li>Cài đặt thông báo</li>
+                <li>Cài đặt riêng tư</li>
+                <li>Thông tin cá nhân</li>
+            </ul>
+
+            <h3 class="order"><i class="fas fa-clipboard-list "></i> Đơn mua</h3>
+            <h3><a href=""><i class="fas fa-bell"></i> Thông báo</a></h3>
+
+            <button class="logout"onclick="window.location.href='HOMEPAGE.html'">Đăng xuất</button>
+
+        </nav>
+        <!--Nội dunng chính-->
+        <main class="main-content">
+            <nav class="order-tabs">
+                <a href="#" class="active">Tất cả</a>
+                <a href="#">Chờ Xác Nhận</a>
+                <a href="#">Đang giao hàng</a>
+                <a href="#">Hoàn Thành</a>
+                <a href="#">Đã hủy</a>
+            </nav>
+
+            <div class="order-list">
+                <h3>Đơn hàng</h3>
+                <div class="order-item">
+                    <img src="IMG/anh1.png" alt="Sản phẩm">
+                    <div class="order-info">
+                        <p>Bánh Snack cosmos phủ socola</p>
+                        <span>x4 gói</span>
+                    </div>
+                    <p class="price">13.000</p>
+                    <p class="status">Hoàn thành</p>
+                </div>
+
+                <div class="order-summary">
+                    <div class="thanhtien">
+                        <p>Thành tiền: <strong>52.000 VND</strong></p>
+                    </div>
+                    <div class="actions">
+                        <button class="btn pink">Đánh giá</button>
+                        <button class="btn light">Liên hệ</button>
+                        <button class="btn light">Mua lại</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

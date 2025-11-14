@@ -1,0 +1,170 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF91AC;
+    padding: 10px 40px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left .img{
+    width: 40px;
+    margin-right: 8px;
+}
+.header-left span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5E0124;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right img{
+    width: 70px;
+}
+.header-rihgt span{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    background: #ffe0ea;
+    padding: 20px;
+    border-right: 2px solid rgba(0,0,0,0.1);
+}
+.sidebar button {
+    width: 90%;
+    margin: 8px auto;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+
+.btn-dashboard {
+    background: #FF91AC;
+}
+
+.btn-order {
+    background: #FF91AC;
+}
+
+.btn-product {
+    background: #FF91AC;
+}
+
+.btn-chart {
+    background: #FF91AC;
+}
+
+.btn-setting {
+    background: #FF91AC;
+}
+.sidebar a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar button:hover {
+    transform: translateX(8px);
+    opacity: 0.9;
+}
+
+.sidebar button:active {
+    transform: scale(0.96);
+}
+.main-container {
+    flex: 1;
+    padding: 25px;
+    background: white;
+}
+
+/* ====== TOP ACTION ===== */
+.top-actions {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.search {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.btn-update,
+.btn-add {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-update { background: #00a8ff; }
+.btn-add { background: #ff4f8d; color: white; }
+
+/* ================= TABLE ================= */
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-table th {
+    background: #ffd6e5;
+    padding: 12px;
+    text-align: left;
+}
+
+.product-table td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-img {
+    width: 60px;
+}
+
+/* BUTTON NHỎ */
+.btn-small {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.update { background: #00a8ff; color: #fff; }
+.delete { background: #e74c3c; color: #fff; }

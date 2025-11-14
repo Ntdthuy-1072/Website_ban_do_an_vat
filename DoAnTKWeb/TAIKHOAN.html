@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     <link rel="stylesheet" href="D:\DoAnTKWeb\CSS\Taikhoan.css">
+    <title>Hồ sơ của tôi</title>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <span>Sweetie Corner</span>
+            <img src="IMG/LOGO.png" alt="logo">
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="top-links">
+            <a href="D:\DoAnTKWeb\GIOHANG.html"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+        </div>
+    </header>
+
+    <div class="container">
+    <!-- SIDEBAR -->
+        <nav class="sidebar">
+            <h3><a href="D:\DoAnTKWeb\HOME.html"><i class="fas fa-home"></i>Trang chủ</a></h3>
+            <h3><a href="D:\DoAnTKWeb\TAIKHOAN.html"><i class="fas fa-user"></i> Tài khoản</a></h3>
+            <ul>
+                <li class="active">Hồ sơ</li>
+                <li>Ngân hàng</li>
+                <li>Địa chỉ</li>
+                <li>Đổi mật khẩu</li>
+                <li>Cài đặt thông báo</li>
+                <li>Cài đặt riêng tư</li>
+                <li>Thông tin cá nhân</li>
+            </ul>
+
+            <h3><a href="D:\DoAnTKWeb\DONHANG.html"><i class="fas fa-clipboard-list"></i> Đơn mua</a></h3>
+            <h3><a href=""><i class="fas fa-bell"></i> Thông báo</a></h3>
+
+            <button class="logout"onclick="window.location.href='HOMEPAGE.html'">Đăng xuất</button>
+        </nav>
+
+        <!-- KHUNG HỒ SƠ TRÊN -->
+        <div class="main-container">
+            <div class="account-header">
+                <div class="header-left">
+                    <img src="IMG/tài khoản.png" alt="">
+                    <div class="info">
+                        <p class="tk-name">tdthuyn_3008</p>
+                        <p class="tk-phone">0956******</p>
+                    </div>
+                    
+                </div>
+
+                <div class="header-right">
+                    <h2>Hồ sơ của tôi</h2>
+                    <p>Quản lý thông tin hồ sơ để bảo mật tài khoản</p>
+                </div>
+            </div>
+
+            <!-- THÔNG TIN CHI TIẾT -->
+            <div class="profile-content">
+
+                <div class="form-left">
+                    <div class="row">
+                        <label>Tên đăng nhập</label>
+                        <input type="text" class="txt">
+                    </div>
+                    <div class="row">
+                        <label>Số điện thoại</label>
+                        <span class="val">0956****19</span>
+                    </div>
+                    <div class="row">
+                        <label>Giới tính</label>
+                        <div class="gender">
+                            <label><input type="checkbox"> Nam</label>
+                            <label><input type="checkbox"> Nữ</label>
+                            <label><input type="checkbox"> Khác</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label>Ngày sinh</label>
+                        <span class="val">**/**/2005</span>
+                    </div>
+                </div>
+
+                <div class="avatar-right">
+                    <div class="ava-border">
+                        <img src="IMG/tài khoản.png" alt="">
+                    </div>
+                    <button class="btn-pick">Chọn ảnh</button>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>

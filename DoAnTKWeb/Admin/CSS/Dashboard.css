@@ -1,0 +1,166 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF91AC;
+    padding: 10px 40px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left .img{
+    width: 40px;
+    margin-right: 8px;
+}
+.header-left span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #5E0124;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-right img{
+    width: 70px;
+}
+.header-rihgt span{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 70px);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    background: #ffe0ea;
+    padding: 20px;
+    border-right: 2px solid rgba(0,0,0,0.1);
+}
+.sidebar button {
+    width: 90%;
+    margin: 8px auto;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+
+.btn-dashboard {
+    background: #FF91AC;
+}
+
+.btn-order {
+    background: #FF91AC;
+}
+
+.btn-product {
+    background: #FF91AC;
+}
+
+.btn-chart {
+    background: #FF91AC;
+}
+
+.btn-setting {
+    background: #FF91AC;
+}
+.sidebar a{
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar button:hover {
+    transform: translateX(8px);
+    opacity: 0.9;
+}
+
+.sidebar button:active {
+    transform: scale(0.96);
+}
+
+.main-container {
+    flex: 1;
+    padding: 30px;
+    background: white;
+}
+
+.row-1,
+.row-2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product {
+    background: #ffe6f0;
+    width: 50%;
+    height: 120px;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;     
+    gap: 15px;              
+    font-size: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product i {
+    font-size: 30px;
+    width: 35px;             
+    text-align: center;
+}
+
+/* chữ */
+.product span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.row-3 {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.infomation {
+    width: 50%;
+    background: #ffe9f2;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.infomation span {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.infomation img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}

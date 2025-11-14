@@ -1,0 +1,248 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* ===== TOP BAR ===== */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF91AC;
+    padding: 10px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40px;
+    margin-right: 8px;
+}
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5E0124;
+}
+
+/* Ô tìm kiếm */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-box input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    width: 400px;
+}
+.search-box button {
+    background-color: #fff;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Giỏ hàng */
+.top-links a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.top-links a:hover {
+    color: #ffe6ec;
+}
+
+/* ===== BODY LAYOUT ===== */
+.container {
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+    width: 260px;
+    background: #ffe0ea;
+    padding: 20px;
+    border-right: 2px solid rgba(0,0,0,0.1);
+}
+.sidebar h3 a{
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 10px 0 20px 10px;
+}
+.sidebar ul li {
+    padding: 6px 0;
+    cursor: pointer;
+}
+.sidebar ul li.active {
+    color: #ff4f81;
+    font-weight: bold;
+}
+
+.logout {
+    margin-top: 30px;
+    background: #ff6680;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-container {
+    width: 100%;
+}
+
+/* HEADER PROFILE */
+.account-header{
+    display: flex;
+    background: #ffe0ea;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 16px;
+    padding:30px;
+    border-right: 2px solid rgba(0,0,0,0.15);
+}
+.header-left img {
+    width: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.header-left .info{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+.header-left .tk_name{
+    font-weight: 600;
+    font-size: 15px;
+}
+.header-left .tk-phone{
+    font-size: 14px;
+    color: #777;
+}
+
+
+.header-right h2 {
+    margin: 0;
+    font-size: 26px;
+}
+.header-right p{
+    color: #555;
+}
+
+/* RIGHT HEADER */
+.header-right h2 {
+    margin: 0;
+    font-size: 22px;
+}
+.header-right p {
+    color: #666;
+}
+
+/* ===== PROFILE CONTENT ===== */
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+/* LEFT FORM */
+.form-left {
+    flex:1;
+}
+
+.form-left label {
+    font-weight: 600;
+    margin-top: 18px;
+    display: block;
+    padding-left: 50px;
+}
+
+.txt {
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px 8px;
+}
+
+/* Dòng chứa label + value trên 1 hàng */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.val {
+    margin: 5px 0 10px 0;
+}
+
+/* Gender */
+.gender {
+    display: flex;
+    gap: 30px;
+    margin-top: 8px;
+}
+.gender label {
+    margin-right: 20px;
+    margin: 0;
+}
+
+/* ===== AVATAR RIGHT ===== */
+.avatar-right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 100px;
+}
+
+
+.ava-border {
+    width: 300px;
+    height: 300px;
+    border: 2px dashed #ff7ba5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+.ava-border img {
+    width: 80px;
+}
+
+
+.btn-pick {
+    background: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
